@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="produtos.css">
+
+	<script async src="Produtos.js"></script>
+	<title>Produtos</title>
+</head>
+<body>
+	
+	<header>
+
+		<div class="navbar show-menu">
+        <div class="header-inner-content">
+            <img class="gato" src="img/gato.png">
+            <h1 class="logo">DolceGatto</h1>
+
+		<nav>
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="SobreNos.html">Sobre Nós</a></li>
+				<li><a href="DolceGatto.html">Me Adote!</a></li>
+				<li><a href="Produtos.html">Produtos</a></li>
+			</ul>
+		</nav>
+		
+		<div class="botao">       
+        <button id="open-cart"><img src="img/carrinho.png"></button>
+		</div>
+		
+	</header>
+
+	
+	
+	<main class="main-section">
+		<section>
+			<h2 class="section-title">Bebidas</h2>
+			<div class="container">
+				<div class="titulo-produto">
+					<strong class="titulo">Café</strong>
+					<br>
+					<img class="product-image" src="img/images.jpg" alt="Café">
+					<div>
+						<span class="price" >R$2,00</span>
+						<button type="button" class="addcarrinho">Adicionar ao carrinho</button>
+					</div>
+				</div>
+				<div  class="titulo-produto">
+					<strong class="titulo">Café com leite</strong>
+					<br>
+					<img class="product-image" src="img/Cafe.jpg" alt="Café">
+					<div>
+						<span class="price" >R$8,00</span>
+						<button type="button" class="addcarrinho">Adicionar ao carrinho</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<div class="titulo-produto">
+					<strong class="titulo">Milkshake</strong>
+					<br>
+					<img class="product-image" src="img/Milkshake.jpg" alt="Milkshake">
+					<div>
+						<span class="price" >R$15,00</span>
+						<button type="button" class="addcarrinho">Adicionar ao carrinho</button>
+					</div>
+				</div>
+				<div class="titulo-produto">
+					<strong class="titulo">Suco de Laranja</strong>
+					<br>
+					<img class="product-image" src="img/Suco.jpg" alt="Suco">
+					<div>
+						<span class="price" >R$8,00</span>
+						<button type="button" class="addcarrinho">Adicionar ao carrinho</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+
+		<section>
+			<h2 class="section-title">Acessórios</h2>
+			<div class="container">
+				<div class="titulo-produto">
+					<strong class="titulo">Arranhador</strong>
+					<br>
+					<img class="product-image" src="img/arranhador.jpg" alt="Arranhador">
+					<div>
+						<span class="price" >R$50,00</span>
+						<button type="button" class="addcarrinho">Adicionar ao carrinho</button>
+					</div>
+				</div>
+				<div class="titulo-produto">
+					<strong class="titulo">Cama Arranhador</strong>
+					<br>
+					<img class="product-image" src="img/CamaArranhador.jpg" alt="Cama Arranhador">
+					<div>
+						<span class="price" >R$75,00</span>
+						<button type="button" class="addcarrinho">Adicionar ao carrinho</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cart">
+			
+				<h3>Carrinho</h3>
+				<div  class="cart-title">
+					<table class="cart-table">
+						<thead>
+							<tr>
+								<th class="table-head-item first-col">Iten</th>
+								<th class="table-head-item second-col">Preço</th>
+								<th class="table-head-item third-col">Quantidade</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<!--<tr class="cart-product">
+								<td class="product-identification">
+									<img class="cart-product-image" src="img/images.jpg" alt="Café">
+									<strong class="cart-product-title">Café</strong>
+								</td>
+								<td>
+									<span class="cart-product-price">R$2,00</span>
+								</td>
+								<td>
+									<input class="product-qtd-input" type="number" value="2" min="0">
+									<button class="remove-product-button" type="button">Remover</button>
+								</td>
+							</tr>
+							<tr class="cart-product">
+								<td class="product-identification">
+									<img class="cart-product-image" src="img/Cafe.jpg" alt="Café">
+									<strong class="cart-product-title">Café com leite</strong>
+								</td>
+								<td>
+									<span class="cart-product-price">R$8,00</span>
+								</td>
+								<td>
+									<input class="product-qtd-input" type="number" value="1" min="0">
+									<button class="remove-product-button" type="button">Remover</button>
+								</td>
+							</tr> -->
+						</tbody>
+
+						<tfoot>
+							<tr>
+								<td colspan="3" class="cart-total-container">
+									<strong>Total</strong>
+									<span>R$0,00</span>
+									<button class="purchase-button" type="button">Finalizar compra</button>
+								</td>	
+							</tr>
+						</tfoot>
+						
+					</table>
+
+				</div>
+			
+		</section>
+
+	</main>
+	<footer class="footer">
+        <div class="footer-container">
+            <div class="logo-area">
+                <h2>DolceGatto</h2>
+            </div>
+            <div class="contact-area">
+                <h3>Contato</h3>
+                <p><strong>Telefone:</strong> (31) 1234-5678</p>
+                <p><strong>Email:</strong> dolcegatto@gmail.com</p>
+                <p><strong>Endereço:</strong> Rua Exemplo, 123 - São Paulo, SP</p>
+                <p>Seg-Sex 8:00-19:00</p>
+				<ul class="list-conteiner">
+					<li>
+					<a href="https://www.instagram.com/">
+					<img src="img/instagran.png">
+					</li>
+					<li>
+					<a href="https://www.whatsapp.com/?lang=pt_BR">	
+					<img src="img/Zap.png">
+					</li>
+					<li>
+					<a href="https://www.facebook.com/?locale=pt_BR">
+					<img src="img/facebook.png">
+					</li>
+				</ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
